@@ -47,6 +47,9 @@ nav li{
     margin: 0 38px 0 200px;
     align-items: center;
 }
+.banner-contents{
+    margin-right: 193px;
+}
 .banner-sub-title{
     font-size: 45px;
     font-weight: 600px;
@@ -60,7 +63,8 @@ nav li{
     margin-bottom: 20px;
 }
 .banner-description{
-    text-align: center;
+    text-align: left;
+    width: 585px;
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
@@ -165,5 +169,6 @@ section{
     border-width: .5px;
 }
 .resume-button{
-    margin-left: 50%;
+    margin-top: 50px;
+    text-align: center;
 }
