@@ -44,7 +44,7 @@ nav li{
 /* Header Banner styles */
 .banner{
     display: flex;
-    margin: 0 38px 0 200px;
+    margin: 0 200px;
     align-items: center;
 }
 .banner-contents{
@@ -135,10 +135,10 @@ section{
 /* Resume styles */
 .resume-container{
     display: flex;
+    gap: 71px;
 }
 .education-experience-section{
     margin-top: 113px;
-    margin-right: 71px;
     margin-bottom: 30px;
 }
 .education-experience-section h3{
@@ -171,4 +171,45 @@ section{
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* Contact section styles */
+footer{
+    display: flex;
+    gap: 117px;
+    margin-top: 113px;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.social-description{
+    color: #474747;
+    width: 562px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social a{
+    text-decoration: none;
+    margin-left: 24px;
+}
+.contact input{
+    height: 64px;
+    width: 461px;
+    border: 0;
+    margin: 24px 0 24px 0;
+    padding: 18px;
+}
+.contact textarea{
+    height: 180px;
+    width: 461px;
+    margin: 24px 0 24px 0;
+    padding: 18px;
+    border: 0;
+}
+.contact input[type="submit"]{
+    height: 64px;
+    width: 150px;
 }
