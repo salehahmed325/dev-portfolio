@@ -70,32 +70,31 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 /* About Me styles */
 .about{
     background-color: #FFF8F3;
     border-radius: 10px;
-    margin-top: 130px;
     padding: 131px 156px;
     text-align: center;
 }
 .section-title{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 35px;
     font-weight: 700;
     color: #181818;
 }
 .section-description{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 18px;
     color: #757575;
 }
 .about-container{
     display: flex;
     justify-content: space-around;
-}
-.about-info{
-
 }
 .about-info-title{
     color: #757575;
@@ -107,9 +106,6 @@ main{
     font-weight: 700;
 }
 /* What I do styles */
-.what-i-do{
-    margin-top: 130px;
-}
 .skills-container{
     display: flex;
     gap: 24px;
@@ -131,4 +127,43 @@ main{
 }
 .skill-description{
     color: #757575;
+}
+/* Resume styles */
+.resume-container{
+    display: flex;
+}
+.education-experience-section{
+    margin-top: 113px;
+    margin-right: 71px;
+    margin-bottom: 30px;
+}
+.education-experience-section h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.education-experience h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.education-experience h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.education-experience p{
+    color: #757575;
+}
+.education-experience hr{
+    color: #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: .5px;
+}
+.resume-button{
+    margin-left: 50%;
 }
